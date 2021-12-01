@@ -1,0 +1,31 @@
+# Created at 2021-11-30T00:21:11.121
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+# Created at 2021-11-30T00:21:11.533
+Unexpected IOException with stream: 2021-11-30 00:21:11.520  INFO 35028 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:7}] to localhost:27017
+
+
+# Created at 2021-11-30T00:21:11.535
+Unexpected IOException with stream: 2021-11-30 00:21:11.533  INFO 35028 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+
+
+# Created at 2021-11-30T00:21:11.545
+Unexpected IOException with stream: 2021-11-30 00:21:11.534  INFO 35028 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=99863275}
+
+
+# Created at 2021-11-30T00:21:19.630
+Unexpected IOException with stream: 2021-11-30 00:21:19.625  INFO 35028 --- [           main] Reto2_Web.Reto2WebApplicationTests       : Started Reto2WebApplicationTests in 15.427 seconds (JVM running for 20.646)
+
+
+# Created at 2021-11-30T00:21:19.656
+Unexpected IOException with stream: 2021-11-30 00:21:19.654  INFO 35028 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
